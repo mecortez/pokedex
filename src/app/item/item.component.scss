@@ -1,0 +1,51 @@
+.bg-titulo {
+  padding: 1rem;
+  background-color: red;
+
+  h1, h2 {
+    margin-bottom: .5rem;
+  }
+
+  .grafico {
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    .circulo {
+      height: 14rem;
+      width: 14rem;
+      background-color: plum;
+    }
+  }
+
+  .numero-sorte {
+    border-bottom: 2px solid yellow;
+
+    p {
+      margin-bottom: .5rem;
+    }
+
+    button {
+      width: 3rem;
+      height: 2rem;
+      margin-right: .5rem;
+      margin-bottom: .5rem;
+    }
+  }
+
+  .detalhes {
+
+    .detalhe {
+      padding: .2rem 0;
+      border-bottom: 2px solid yellow;
+    }
+  }
+
+}
+
+//47,91
+//43,36

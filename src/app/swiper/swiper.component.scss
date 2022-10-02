@@ -1,15 +1,21 @@
+@import "~swiper/scss";
+@import "~swiper/scss/pagination";
+
 .body {
-  padding: 10px;
   background-color: pink;
   position: relative;
   display: flex;
-
-  .slide {
-    width: 10rem;
-    height: 10rem;
-    position: absolute;
-  }
+  width: 100%;
 }
+
 .mySwiper {
-  height: 40rem;
+  height: 45rem;
+}
+
+.swiper-slide {
+  width: 85%;
+}
+
+.slide {
+  margin-right: 1rem;
 }

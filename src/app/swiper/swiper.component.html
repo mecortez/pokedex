@@ -1,11 +1,17 @@
 
 <div class="body">
-  <swiper [pagination]="true" class="mySwiper">
+  <swiper
+  [slidesPerView]="'auto'"
+  [spaceBetween]="0"
+  [pagination]="{
+    clickable: true
+  }"
+  class="mySwiper">
     <ng-template
     *ngFor="let slide of slides"
     swiperSlide
     class="slide">
-     <app-item></app-item>
+      <app-item></app-item>
     </ng-template>
   </swiper>
 </div>
