@@ -1,46 +1,15 @@
 .body {
-  margin: 10px;
-  padding: 50px;
+  padding: 10px;
   background-color: pink;
+  position: relative;
+  display: flex;
 
   .slide {
-    width: 50px;
-    height: 50px;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
   }
 }
-// .wrapper {
-//   border: 5px solid pink;
-//   padding: 20px;
-//   margin-bottom: 20px;
-
-
-//   .item {
-//     border: 1px solid blue;
-//     color: red;
-//     margin: 10px;
-//   }
-// }
-
-
-
-// <!-- Slider main container -->
-// <div class="swiper">
-//   <!-- Additional required wrapper -->
-//   <div class="swiper-wrapper">
-//     <!-- Slides -->
-//     <div class="swiper-slide">Slide 1</div>
-//     <div class="swiper-slide">Slide 2</div>
-//     <div class="swiper-slide">Slide 3</div>
-//     ...
-//   </div>
-//   <!-- If we need pagination -->
-//   <div class="swiper-pagination"></div>
-
-//   <!-- If we need navigation buttons -->
-//   <div class="swiper-button-prev"></div>
-//   <div class="swiper-button-next"></div>
-
-//   <!-- If we need scrollbar -->
-//   <div class="swiper-scrollbar"></div>
-// </div>
-
+.mySwiper {
+  height: 40rem;
+}
