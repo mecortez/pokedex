@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { SwiperComponent } from './swiper/swiper.component';
 import { SwiperModule } from 'swiper/angular';
 import { ItemComponent } from './item/item.component';
+import { PokemonImgComponent } from './pokemon-img/pokemon-img.component';
+import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SwiperComponent,
-    ItemComponent
+    ItemComponent,
+    PokemonImgComponent,
+    PokemonListComponent,
   ],
   imports: [
     BrowserModule,

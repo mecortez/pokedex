@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-item',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item.component.scss']
 })
 export class ItemComponent implements OnInit {
+  @Input() idPokemon!: number;
+  @Input() namePokemon!: string;
+  @Input() imgPokemon!: string;
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.idPokemon);
+
+
   }
+
 
 }

@@ -1,0 +1,10 @@
+<!-- <app-swiper></app-swiper> -->
+<h1>Pokedex</h1><br><br>
+
+<app-item
+  *ngFor="let pokemon of pokemons"
+  [namePokemon]="pokemon.name"
+  [idPokemon]="pokemon.id"
+  [imgPokemon]="pokemon.img"
+></app-item>
+

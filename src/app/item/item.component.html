@@ -1,34 +1,9 @@
-<div class="bg-titulo">
-  <h1> Meu Titulo </h1>
-  <h2>Numero Titulo</h2>
-  <div class="grafico">
-    <div class="circulo"></div>
-  </div>
-  <div class="numero-sorte">
-    <p>Numero da sorte</p>
-    <button class="numero">123456</button>
-    <button class="numero">123456</button>
-    <button class="numero">123456</button>
-    <button class="numero">123456</button>
-    <button class="numero">123456</button>
-    <button class="numero">123456</button>
-  </div>
-  <div class="detalhes">
-    <div class="detalhe">
-      <h3>detalhe</h3>
-      <p>data</p>
-    </div>
-    <div class="detalhe">
-      <h3>detalhe</h3>
-      <p>data</p>
-    </div>
-    <div class="detalhe">
-      <h3>detalhe</h3>
-      <p>data</p>
-    </div>
-    <div class="detalhe">
-      <h3>detalhe</h3>
-      <p>data</p>
-    </div>
-  </div>
-</div>
+<div>
+  <app-pokemon-img></app-pokemon-img>
+  <h2>Nome do Pokémon:</h2>
+  <h3>{{ namePokemon }}</h3>
+  <h2>Número do Pokémon:</h2>
+  <h3>{{ idPokemon }}</h3><br>
+  <h2>Imagem do Pokémon:</h2>
+  <img src="{{ imgPokemon }}" alt="imagem do Pokémon {{ idPokemon }}">
+</div><br>

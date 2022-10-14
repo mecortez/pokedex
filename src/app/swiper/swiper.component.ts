@@ -19,6 +19,8 @@ export class SwiperComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+
   }
 
   // Cria array com 3 slides
